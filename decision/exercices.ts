@@ -21,15 +21,15 @@ function divCinque(a:number):void
 }
 function divTrois(ch:number):void {
     let unite=ch%10; // obtient l'unité
-    let dizaine=(ch%100)/10; // obtient la dizaine
-    let centaine=ch/100; // obtient la centaine
+    let dizaine=Math.floor((ch%100)/10); // obtient la dizaine
+    let centaine=Math.floor(ch/100); // obtient la centaine
     let somme=unite+dizaine+centaine;
     if(somme%3==0)
     console.log(ch+" est divisible par 3");
     else
     console.log(ch+" n'est pas divisible par 3");
 }
-
+divTrois(126);
 const taxe=calculeTVA(15,200);
 console.log("La taxe est de "+taxe);
 
