@@ -1,7 +1,7 @@
 function calculeIMC(poid:number,taille:number):number {
     return poid/(taille*taille);
 }
-const indice=Math.round(calculeIMC(80,1.80));
+const indice=Math.round(calculeIMC(64,1.86));
 
 console.log("Votre indice de masse corporelle est de "+indice);
 if(indice<20){
