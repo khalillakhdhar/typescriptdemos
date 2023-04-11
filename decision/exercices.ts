@@ -30,6 +30,9 @@ function divTrois(ch:number):void {
     console.log(ch+" n'est pas divisible par 3");
 }
 divTrois(126);
+divTrois(127);
+divCinque(125);
+divCinque(26);
 const taxe=calculeTVA(15,200);
 console.log("La taxe est de "+taxe);
 
