@@ -1,4 +1,4 @@
-function addNumbers(a: number, b: number): number {
-    return a + b;
+function addNumbers(a: number, b: number  ): number {
+    return a     + b;
 }
-console.log(addNumbers(10, 20));
+console.log(addNumbers(10,  20));
